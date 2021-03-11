@@ -13,5 +13,35 @@
 }
 .banner__info > button {
     background-color:#ff7779;
-    color:white
+    color:white;
+    font-weight: 300px;
+
+}
+.banner__info > button:hover {
+    background-color:white;
+    color:  #ff7779
+}
+.search__button__container {
+    display: flex;
+    width:100%;
+   background-color:blue;
+    align-items: center;
+    justify-content: space-between;
+}
+.search__button__container > button {
+    position: absolute;
+    top:0;
+    right:0;
+    font-size:20px;
+    color:black !important;
+    background-color:white;
+    font-weight: 600px;
+   
+    
+    
+}
+.search__button__container :hover  {
+    background-color: bleu !important;
+    color:white !important
+    
 }
