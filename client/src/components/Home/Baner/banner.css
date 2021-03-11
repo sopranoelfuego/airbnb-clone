@@ -24,7 +24,7 @@
 .search__button__container {
     display: flex;
     width:100%;
-   background-color:blue;
+
     align-items: center;
     justify-content: space-between;
 }
@@ -32,10 +32,12 @@
     position: absolute;
     top:0;
     right:0;
-    font-size:20px;
-    color:black !important;
+    font-size:15px;
+    text-transform: lowercase ;
+    color:#204061 !important;
     background-color:white;
     font-weight: 600px;
+    outline:none;
    
     
     

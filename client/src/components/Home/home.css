@@ -1,4 +1,13 @@
-.header__icon {
-    object-fit: contain;
-    height: 100px;
+.section_one {
+    display:flex !important;
+    width: 100% !important;
+    justify-content: center;
+    box-sizing: border-box;
+}
+@media only screen and  (max-width:600px){
+    .section_one {
+        display: block;
+        align-items: center;
+    }
+
 }

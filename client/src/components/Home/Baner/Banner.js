@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import "./banner.css"
 import {Button} from "@material-ui/core"
+import Search from "./search/Search"
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 
 const Banner = () => {
@@ -8,8 +9,9 @@ const Banner = () => {
     return (
         <div className="banner">
             <div className="search__button__container">
+                {showCalendar && <Search/>}
                 <Button className="search__button" variant="outlined" onClick={(e)=>setShowCalendar(!showCalendar)}>
-                     <div className="tex">
+                     <div className="text">
                      {showCalendar ? "hide date picker":"show date picker"}
                          </div>     
                  <CalendarTodayIcon/>
