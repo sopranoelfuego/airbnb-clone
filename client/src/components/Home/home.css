@@ -6,8 +6,10 @@
 }
 @media only screen and  (max-width:600px){
     .section_one {
-        display: block;
-        align-items: center;
+        display:block ;
+
+        justify-content: center;
+        box-sizing: border-box;
     }
 
 }
