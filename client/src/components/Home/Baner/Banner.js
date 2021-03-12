@@ -3,9 +3,11 @@ import "./banner.css"
 import {Button} from "@material-ui/core"
 import Search from "./search/Search"
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
+import {useHistory} from "react-router-dom"
 
 const Banner = () => {
     const [showCalendar,setShowCalendar]=useState(false)
+    const history=useHistory()
     return (
         <div className="banner">
             <div className="search__button__container">
@@ -23,7 +25,7 @@ const Banner = () => {
                     <h5>plan a diffrent kind of gateway to
                         uncover the hidden gems near you
                     </h5>
-                    <Button variant="outlined">explore your nearby</Button>
+                    <Button variant="outlined" onClick={()=>history.push('/SearchPage')}>explore your nearby</Button>
              </div>
 
 

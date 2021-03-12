@@ -4,6 +4,8 @@
     border-bottom: 1px solid lightgray;
 }
 .searchResult__info {
+    display: flex;
+    flex-direction: column;
     padding-left: 10px;
 }
 .searchResult:hover {
@@ -25,6 +27,7 @@
 .searchResult__info__top > p  {
     font-size:15px;
     text-align: justify;
+    color:gray
 
 
 }
