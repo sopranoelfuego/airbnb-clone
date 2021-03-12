@@ -2,6 +2,7 @@
 import React,{useState} from 'react'
 import "react-date-range/dist/styles.css"
 import "react-date-range/dist/theme/default.css"
+import {Link} from "react-router-dom"
 import "./Search.css"
 import {People} from "@material-ui/icons"
 import {Button} from "@material-ui/core"
@@ -32,10 +33,12 @@ const Search = () => {
             <div className="searching__input__container">
                <input type="number" defaultValue="2"/>
             </div>
-             <div className="button__Search__container">
-               <Button variant="outlined">search</Button>
-            
-             </div>
+            <Link to="/SearchPage">
+                    <div className="button__Search__container">
+                    <Button variant="outlined">search</Button>
+                    
+                    </div>
+            </Link>
         </div>
     )
 }

@@ -2,7 +2,9 @@
     position:absolute;
     top:40px;
     left:45%;
-    width:100vw
+    width:100vw;
+    z-index:9000;
+    background-color:white
 }
 .searching__number__header {
     display: flex;
@@ -34,10 +36,13 @@
 
     width:40vw !important;
     background-color:#ff7779;
-    color:white
+    color:white;
    
     
 
+}
+.button__Search__container > button {
+    text-decoration: none !important;
 }
 .button__Search__container:hover > button {
     background-color:#ff7750;

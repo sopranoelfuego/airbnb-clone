@@ -1,0 +1,5 @@
+.searchPage__info >button {
+    margin:5px;
+    border-radius: 30px;
+    text-transform: inherit;
+}
